@@ -12,6 +12,7 @@
 	},
 	"files": [
 		"LICENSE.txt",
+		"webfeed.css",
 		"webfeedcss.js",
 		"webfeedcss.d.ts",
 		"webfeedcss.d.ts.map",
