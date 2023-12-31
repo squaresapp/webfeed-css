@@ -1,0 +1,27 @@
+{
+	"name": "webfeedcss",
+	"version": "1.0.0",
+	"description": "Required CSS to render a Webfeed",
+	"author": "Paul Gordon",
+	"license": "unlicense",
+	"main": "webfeedcss.js",
+	"browser": "webfeedcss.js",
+	"types": "webfeedcss.d.ts",
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"LICENSE.txt",
+		"webfeedcss.js",
+		"webfeedcss.d.ts",
+		"webfeedcss.d.ts.map",
+		"webfeedcss.min.js"
+	],
+	"scripts": {
+		"test": "exit 0",
+		"release": "cd ./+build && cp ../package.json ./package.json && np && cp ./package.json ../package.json"
+	},
+	"devDependencies": {
+		"@squaresapp/rawjs": "^1.3.12"
+	}
+}

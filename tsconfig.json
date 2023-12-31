@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"outFile": "+build/webfeedcss.js",
+		"composite": true,
+		"module": "system",
+		"moduleResolution": "node",
+		"target": "esnext",
+		"inlineSourceMap": true,
+		"inlineSources": true,
+		"strict": true,
+		"declaration": true,
+		"declarationMap": true,
+		"stripInternal": true,
+		"incremental": true,
+	},
+	"include": [
+		"node_modules/@squaresapp/rawjs/*.ts",
+		"WebfeedCss.ts"
+	]
+}
