@@ -14,7 +14,7 @@ The CSS file is available on jsDelivr. If you want to include the CSS file stati
 ```
 npm install webfeed-css
 ```
-```
+```typescript
 const webfeedCss = require("webfeed-css") as typeof import("webfeed-css");
 
 // Use it somewhere.
