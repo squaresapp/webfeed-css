@@ -1,7 +1,7 @@
 {
 	"name": "webfeedcss",
 	"version": "1.0.0",
-	"description": "Required CSS to render a Webfeed",
+	"description": "A micro-library that stores the minimum CSS required to render a Webfeed",
 	"author": "Paul Gordon",
 	"license": "unlicense",
 	"main": "webfeedcss.js",
