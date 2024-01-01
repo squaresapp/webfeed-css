@@ -1,6 +1,6 @@
 {
-	"name": "webfeedcss",
-	"version": "1.0.1",
+	"name": "webfeed-css",
+	"version": "1.0.0",
 	"description": "A micro-library that stores the minimum CSS required to render a Webfeed",
 	"author": "Paul Gordon",
 	"license": "unlicense",
