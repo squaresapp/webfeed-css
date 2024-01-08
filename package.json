@@ -1,6 +1,6 @@
 {
 	"name": "webfeed-css",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A micro-library that stores the minimum CSS required to render a Webfeed",
 	"author": "Paul Gordon",
 	"license": "unlicense",
@@ -20,7 +20,7 @@
 	],
 	"scripts": {
 		"test": "exit 0",
-		"release": "cd ./+build && cp ../package.json ./package.json && np && cp ./package.json ../package.json"
+		"release": "cd ./+build && cp ../package.json ./package.json && cp ../webfeed.css ./webfeed.css && np && cp ./package.json ../package.json"
 	},
 	"devDependencies": {
 		"@squaresapp/rawjs": "^1.3.12"
