@@ -1,5 +1,5 @@
 
-const webfeedCss: (string | Raw.Param) = [
+const webfeedCss: (string | Raw.Style)[] = [
 	"HTML", {
 		scrollSnapType: "y mandatory",
 	},
