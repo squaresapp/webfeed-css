@@ -2,14 +2,12 @@
 const webfeedCss: (string | Raw.Style)[] = [
 	"HTML", {
 		scrollSnapType: "y mandatory",
+		overflowY: "auto",
 	},
 	"HTML, BODY", {
 		margin: 0,
 		padding: 0,
 		height: "100%",
-	},
-	"HTML", {
-		overflowY: "auto",
 	},
 	"SECTION", {
 		position: "relative",
