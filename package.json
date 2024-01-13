@@ -4,6 +4,13 @@
 	"description": "A micro-library that stores the minimum CSS required to render a Webfeed",
 	"author": "Paul Gordon",
 	"license": "unlicense",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/squaresapp/webfeed-css"
+	},
+	"bugs": {
+		"url": "https://github.com/squaresapp/webfeed-css/issues"
+	},
 	"main": "webfeedcss.js",
 	"browser": "webfeedcss.js",
 	"types": "webfeedcss.d.ts",
